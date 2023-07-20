@@ -70,7 +70,7 @@ public class FavoritActivity extends AppCompatActivity {
         listFavoritRequestModel.setDataSource("Cluster0");
 
         progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("Sabar Masbroo...");
+        progressDialog.setMessage("Lagi Loading Bre...");
         progressDialog.show();
 
         APIService.endpoint().favoriteNovel(listFavoritRequestModel).enqueue(new Callback<ListFavoritResponseModel>() {
